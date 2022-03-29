@@ -1,0 +1,215 @@
+.BannerImg {
+  width: 100%;
+}
+.BannerFirst h1 {
+  color: white !important;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: "Poppins";
+}
+.BannerFirst {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ButtonDiv {
+  height: 64px;
+  width: 230px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: #fcd980 !important;
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 600;
+  color: black !important;
+  font-weight: 600;
+}
+.BannerFirst p {
+  color: white;
+}
+.FirstBannerDiv {
+  display: inline-flex;
+}
+.FirstDiv {
+  display: flex;
+}
+
+.FirstDiv p {
+  padding-top: 20px;
+  margin-left: 50px;
+  font-size: 16px;
+}
+.PAndImg {
+  display: flex;
+}
+.PAndImg img {
+  margin-top: 29px;
+  margin-left: 10px;
+  height: 10px;
+}
+@media only screen and (max-width: 992px) {
+  .mobileView {
+    display: block;
+  }
+  .deskTop {
+    display: none;
+  }
+  .navbar {
+    justify-content: start;
+    display: block;
+  }
+  .navlink {
+    padding: 5px 0px !important;
+  }
+  .contact_btn {
+    margin-top: 15px;
+  }
+  .BannerFirst h1 {
+    font-size: 35px !important;
+    line-height: 54px;
+  }
+  .ButtonDiv {
+    height: 45px;
+    width: 125px;
+    font-size: 13px;
+  }
+  .FirstDiv p {
+    padding-top: 13px;
+    margin-left: 20px;
+    font-size: 13px;
+  }
+  .PAndImg img {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 767px) {
+  .BannerFirst h1 {
+    font-size: 22px !important;
+    line-height: 35px;
+  }
+  .ButtonDiv {
+    height: 35px;
+    width: 100px;
+    font-size: 11px;
+  }
+  .FirstDiv p {
+    padding-top: 8px;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  .PAndImg img {
+    margin-top: 15px;
+    margin-left: 12px;
+    height: 10px;
+    width: 16px;
+  }
+  .FirstDiv {
+    display: flex;
+    justify-content: center;
+  }
+  .BannerFirst h1 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 567px) {
+}
+/* Responsive end  */
+@media only screen and (max-width: 992px) {
+  .mobileView {
+    display: block;
+  }
+  .deskTop {
+    display: none;
+  }
+  .navbar {
+    justify-content: start;
+    display: block;
+  }
+  .navlink {
+    padding: 5px 0px !important;
+  }
+  .contact_btn {
+    margin-top: 15px;
+  }
+  .BannerFirst h1 {
+    font-size: 35px !important;
+    line-height: 54px;
+  }
+  .ButtonDiv {
+    height: 45px;
+    width: 125px;
+    font-size: 13px;
+  }
+  .FirstDiv p {
+    padding-top: 13px;
+    margin-left: 20px;
+    font-size: 13px;
+  }
+  .PAndImg img {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+    .FirstDiv{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 767px) {
+  .BannerFirst {
+    padding-top: 20px;
+  }
+  .BannerFirst h1 {
+    font-size: 40px !important;
+    line-height: 50px;
+  }
+  .ButtonDiv {
+    height: 35px;
+    width: 100px;
+    font-size: 11px;
+  }
+  .FirstDiv p {
+    padding-top: 8px;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  .PAndImg img {
+    margin-top: 15px;
+    margin-left: 12px;
+    height: 10px;
+    width: 16px;
+  }
+  .FirstDiv {
+    display: flex;
+    justify-content: center;
+  }
+  .BannerFirst h1 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 567px) {
+    .BannerFirst h1 {
+        font-size: 32px !important;
+        line-height: 50px;
+      }
+}
+@media only screen and (max-width: 420px) {
+    .BannerFirst h1 {
+        font-size: 25px !important;
+        line-height: 50px;
+      }
+}
+
+/* Responsive end  */
