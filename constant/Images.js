@@ -17,7 +17,9 @@ export const Images = {
     que: "/images/que.png",
     timer: "/images/timer.png",
     note: "/images/note.png",
-
-  
+    AboutUs: "/images/AboutUs.png",
+    leftArrow: "/images/leftArrow.png",
+    rightArrow: "/images/rightArrow.png",
+    Inquiry: "/images/Inquiry.png"
    };
   

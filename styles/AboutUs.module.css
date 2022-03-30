@@ -1,0 +1,122 @@
+.aboutUsDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutUsFirst h3 {
+  font-family: "Poppins";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.aboutUsFirst p {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(145, 145, 145);
+}
+.aboutUsSecond h5 {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.divImgDetails {
+  display: flex;
+}
+.divDetails {
+  margin-left: 10px;
+  padding-top: 10px;
+}
+.divDetails label {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.divDetails p {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.arrowImg {
+  margin-top: 25px;
+}
+.rightArrow {
+  background-color: aquamarine;
+}
+.leftArrow {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .aboutUsFirst h3 {
+    font-size: 26px;
+    line-height: 40px;
+    
+  }
+  .aboutUsFirst p {
+    font-size: 14px;
+    line-height: 20px;
+
+  }
+  .aboutUsSecond h5 {
+    font-size: 26px;
+    line-height: 35px;
+    text-align: justify;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .aboutUsFirst h3 {
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .aboutUsFirst p {
+    text-align: center;
+  }
+  .aboutUsFirst p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .aboutUsSecond h5 {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .aboutUsFirst h3 {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .aboutUsFirst p {
+    text-align: center;
+  }
+  .aboutUsFirst p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .aboutUsSecond h5 {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+  }
+}

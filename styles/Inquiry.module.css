@@ -1,0 +1,91 @@
+.Inquiry {
+  background: #1c1e53;
+}
+.inquiryForm {
+  padding: 70px;
+  color: white;
+}
+.inquiryImg {
+  width: 100%;
+  height: 100%;
+}
+.inquiryForm h5 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.inquiryForm p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.inputField {
+  width: 100%;
+  height: 50px;
+  border: 1.5px solid #ffffff0d;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fafafa;
+  background: #1c1e53;
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+.buttonField {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 41px;
+  padding: 15px, 51px, 15px, 51px;
+  background: #fcd980;
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 25px;
+}
+.PAndImg {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.PAndImg img {
+  height: 15px;
+  width: 15px;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+@media only screen and (max-width: 767px) {
+    
+    .inquiryForm h5 {
+      text-align:  center;
+    }
+    
+    .inquiryForm p {
+      text-align: center;
+    }
+  }
+@media only screen and (max-width: 567px) {
+  .inquiryForm {
+    padding: 30px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .inquiryForm {
+    padding: 10px;
+  }
+}
