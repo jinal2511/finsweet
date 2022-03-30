@@ -1,0 +1,86 @@
+.featuresMain h1 {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.featuresMain h2 {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 192px;
+  width: 512px;
+  margin: 0 auto;
+}
+.cardView {
+  background: white;
+  margin-bottom: 20px;
+  padding: 40px 30px;
+  /* height: 316px;
+width: 405px; */
+}
+.cardView h6 {
+  height: 36px;
+  width: 315;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.cardView p {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(121, 121, 121);
+}
+@media only screen and (max-width: 992px) {
+  .featuresMain h2 {
+    font-size: 35px;
+    width: 470px;
+    line-height: 54px;
+    height: 192px;
+  }
+  .cardView h6 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .featuresMain h2 {
+    font-size: 30px;
+    width: 400px;
+    line-height: 44px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .featuresMain h2 {
+    font-size: 30px;
+    width: 350px;
+    line-height: 44px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .featuresMain h2 {
+    font-size: 23px;
+    width: 302px;
+    line-height: 44px;
+    height: 140px;
+  }
+}
