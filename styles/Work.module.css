@@ -1,0 +1,220 @@
+.BannerImg {
+  width: 100%;
+}
+.BannerFirst h1 {
+  color: black !important;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: "Poppins";
+}
+.BannerFirst {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ButtonDiv {
+  height: 64px;
+  width: 230px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: #fcd980 !important;
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 600;
+  color: black !important;
+  font-weight: 600;
+}
+.withUs {
+  color: #2405f2 !important;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.workDiscription {
+  color: rgb(109 109 109);
+}
+.workDiscription p{
+  font-size: 20px;
+}
+.FirstBannerDiv {
+  display: inline-flex;
+}
+.FirstDiv {
+  display: flex;
+}
+
+.FirstDiv p {
+  padding-top: 20px;
+  margin-left: 50px;
+  font-size: 16px;
+}
+.PAndImg {
+  display: flex;
+    /* justify-content: center; */
+}
+.PAndImg img {
+  margin-top: 13px;
+  margin-left: 10px;
+  height: 10px;
+}
+.cardWork{
+  margin-bottom: 20px;
+}
+
+.BannerSecond{
+  display: flex;
+  padding-left: 10%;
+ 
+}
+.Card{
+  display: block;
+}
+.Card h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Card p {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: justify;
+  color: rgb(158, 158, 158);
+}
+@media only screen and (max-width: 992px) {
+  .mobileView {
+    display: block;
+  }
+  .deskTop {
+    display: none;
+  }
+  .navbar {
+    justify-content: start;
+    display: block;
+  }
+  .navlink {
+    padding: 5px 0px !important;
+  }
+  .contact_btn {
+    margin-top: 15px;
+  }
+  .workDiscription p{
+    font-size: 18px;
+  }
+  .ButtonDiv {
+    height: 45px;
+    width: 125px;
+    font-size: 13px;
+  }
+  .FirstDiv p {
+    padding-top: 13px;
+    margin-left: 20px;
+    font-size: 13px;
+  }
+  .PAndImg img {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 10px;
+  }
+  .Card h2{
+    font-size: 28px;
+  }
+  .Card p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .FirstDiv {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .BannerFirst {
+    padding-top: 20px;
+  }
+  .BannerFirst h1 {
+    font-size: 37px !important;
+    line-height: 50px;
+  }
+  .workDiscription p{
+    font-size: 14px;
+  }
+  .ButtonDiv {
+    height: 35px;
+    width: 100px;
+    font-size: 11px;
+  }
+  .FirstDiv p {
+    padding-top: 8px;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  .PAndImg img {
+    margin-top: 15px;
+    margin-left: 12px;
+    height: 10px;
+    width: 16px;
+  }
+  .FirstDiv {
+    display: flex;
+    justify-content: center;
+  }
+  .BannerFirst h1 {
+    text-align: center;
+  }
+  .PAndImg{
+    display: flex;
+    justify-content: center;
+}
+}
+@media only screen and (max-width: 567px) {
+  .BannerFirst h1 {
+    font-size: 32px !important;
+    line-height: 50px;
+  }
+  .workDiscription p{
+    text-align: center;
+  }
+  .PAndImg {
+    display: flex;
+      justify-content: center;
+  }
+  .Card{
+    text-align: center;
+  }
+  .Card h2{
+    font-size: 30px;
+    text-align: center;
+  }
+  .Card p {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .BannerFirst h1 {
+    font-size: 25px !important;
+    line-height: 50px;
+  }
+}
+
+/* Responsive end  */

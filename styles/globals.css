@@ -33,7 +33,6 @@ a {
 }
 div#responsive-navbar-nav {
   text-align: center;
-  /* background: aliceblue; */
 }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.55);
@@ -45,6 +44,12 @@ div#responsive-navbar-nav {
 .Banner {
   background: #1c1e53;
   padding-top: 7%;
+  padding-bottom: 7%;
+}
+.Work {
+  background: #F4F6FC;
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
 .mobileView {
